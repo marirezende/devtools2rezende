@@ -1,0 +1,161 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Mariana Rezende
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+/*@import url('../twentyseventeen/style.css'); -- according to the Wordpress Codex, the functions.php page replaces this import function, so it is no longer necessary */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Pangolin');
+
+
+
+.custom-logo{
+    float: left;
+}
+
+.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+    max-width: 260px;
+}
+
+.custom-logo-link {
+    vertical-align: middle;
+    width: 200px;
+}
+
+#top-menu{
+    
+}
+
+.menu {
+    float: right;
+}
+
+.main-navigation {
+    clear: both;
+    display: block;
+    margin-right: 2em;
+}
+
+.navigation-top a {
+    color: #b44185;
+    font-weight: 600;
+    font-size: 1.1em;
+    font-family: 'Josefina Sans', sans-serif;
+    padding-top: 0;
+}
+
+.navigation-top a:hover {
+    color: #88d10b;
+}
+
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+    color: #BFBFBF;
+}
+
+.menu-scroll-down .icon {
+    color: #b44185;
+    height: 14px;
+    width: 14px;
+}
+
+.menu-toggle {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #b44185;
+    display: none;
+    font-size: 1em;
+    font-weight: 600;
+    /* line-height: 1.5; */
+    margin: 1px auto 2px;
+    padding: 1em;
+    text-shadow: none;
+    float: right;
+}
+
+.menu-toggle:focus {
+    outline: inherit;
+}
+
+
+.js .main-navigation.toggled-on > div > ul {
+    display: block;
+    font-size: 0.85em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    border: 0;
+    margin-left:  60%;
+    margin-right: 40%;
+    text-align: center;
+
+}
+
+ol {
+    padding-left: 3em;
+}
+
+ol > li {
+    padding-left: 1em;
+}
+
+.site-info{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #b44185;
+}
+
+div.menu-social-links-menu-container {
+    width: 250px;
+    margin-top: 0.1em;
+}
+
+div.textwidget {
+    clear: both;
+    height: 0;
+}
+
+
+
+.social-icons {
+    margin-right: 0.75em;
+}
+
+/* 
+.social-navigation ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+nav.social-navigation a {
+    background-color: #b44185;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    margin-bottom: 1em;
+} */
+
+.footer-mari {
+    margin-left: 60%;
+    text-align: center;
+}
+
+.heart{
+  font-size: 1.5em;  
+    font-weight: 900;
+}
